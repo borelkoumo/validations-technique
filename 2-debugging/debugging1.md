@@ -8,8 +8,9 @@ Le script initial a été écrit, mais il ne fonctionne pas correctement et prod
 
 Votre tâche est d'identifier et de corriger les erreurs dans le script pour garantir que le total calculé est correct.
 
-  ** Script à corriger:**
-    ``` 
+** Script à corriger:**
+
+```javascript 
 const weeklySales = [
     { date: "2023-04-01", amount: 200 },
     { date: "2023-04-02", amount: 450 },
@@ -41,7 +42,7 @@ function calculateTotalSales(sales) {
 
 const totalSales = calculateTotalSales(weeklySales);
 console.log("Total sales for the week:", totalSales);`
-      ```
+```
 
 **Instructions :**
 

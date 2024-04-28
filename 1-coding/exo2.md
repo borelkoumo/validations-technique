@@ -4,15 +4,24 @@ The returned array should be created such that `returnedArray[i] = fn(arr[i], i)
 
 Please solve it without the built-in Array.map method.
 
+# Usage
+```javascript
+const arr = [1, 2, 3];
+const plusOne = function (n) { return n + 1; }
+const newArray = map(arr, plusOne); // [2,3,4]
+// newArray[0] === plusOne(arr[0], 1)
+```
+
 ## Example 1:
 ```
 Input: arr = [1, 2, 3]
-fn = function plusone (n) { return n + 1; }
+fn = function plusOne (n) { return n + 1; }
 Output: [2, 3, 4]
 ```
 
 ### Explanation:
-    const newArray = map(arr, plusone); // [2,3,4]
+`const newArray = map(arr, plusOne); // [2,3,4]`
+
 The function increases each value in the array by one.
 
 ## Example 2:
