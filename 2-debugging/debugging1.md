@@ -1,14 +1,15 @@
 
 ### Exercice de Debugging JavaScript: Calcul des Ventes Hebdomadaires
 
-  ** Introduction au problème:**
-    Vous êtes en charge du développement d'un script pour calculer les ventes totales hebdomadaires pour un magasin. Le script doit ajouter un bonus de 50 EUR pour les jours où les ventes dépassent 400 EUR. Une fois les bonus ajoutés, vous devez trier les montants de vente par ordre décroissant avant de calculer le total final. 
+**Introduction au problème:**
+
+Vous êtes en charge du développement d'un script pour calculer les ventes totales hebdomadaires pour un magasin. Le script doit ajouter un bonus de 50 EUR pour les jours où les ventes dépassent 400 EUR. Une fois les bonus ajoutés, vous devez trier les montants de vente par ordre décroissant avant de calculer le total final. 
 
 Le script initial a été écrit, mais il ne fonctionne pas correctement et produit des résultats incohérents. 
 
 Votre tâche est d'identifier et de corriger les erreurs dans le script pour garantir que le total calculé est correct.
 
-** Script à corriger:**
+**Script à corriger:**
 
 ```javascript 
 const weeklySales = [

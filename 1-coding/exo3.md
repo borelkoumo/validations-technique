@@ -34,6 +34,7 @@ console.log(callCount) // 1
 ````
 
 ### Explanation:
+````javascript
 const sum = (a, b) => a + b;
 const memoizedSum = memoize(sum);
 memoizedSum(2, 2); // "call" - returns 4. sum() was called as (2, 2) was not seen before.
@@ -41,7 +42,7 @@ memoizedSum(2, 2); // "call" - returns 4. However sum() was not called because t
 // "getCallCount" - total call count: 1
 memoizedSum(1, 2); // "call" - returns 3. sum() was called as (1, 2) was not seen before.
 // "getCallCount" - total call count: 2
-
+````
 ## Example 2:
 ````
     Input:
@@ -54,7 +55,7 @@ memoizedSum(1, 2); // "call" - returns 3. sum() was called as (1, 2) was not see
 
 ### Explanation:
 
-````
+````javascript
 const factorial = (n) => (n <= 1) ? 1 : (n * factorial(n - 1));
 const memoFactorial = memoize(factorial);
 memoFactorial(2); // "call" - returns 2.
@@ -76,7 +77,7 @@ memoFactorial(3); // "call" - returns 6. However factorial was not called becaus
 ````
 
 ### Explanation:
-````
+````javascript
 fib(5) = 8 // "call"
 // "getCallCount" - total call count: 1
 ````
