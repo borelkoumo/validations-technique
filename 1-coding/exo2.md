@@ -8,8 +8,8 @@ Please solve it without the built-in Array.map method.
 ```javascript
 const arr = [1, 2, 3];
 const plusOne = function (n) { return n + 1; }
-const newArray = map(arr, plusOne); // [2,3,4]
-// newArray[0] === plusOne(arr[0], 1)
+const newArray = map(arr, plusOne); // newArray = [2,3,4]
+// newArray[0] === plusOne(arr[0])
 ```
 
 ## Example 1:
